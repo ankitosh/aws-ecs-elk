@@ -1,0 +1,17 @@
+cluster.name: "elasticsearch"
+cluster.routing.allocation.disk.threshold_enabled: false
+cluster.max_shards_per_node: 5100
+bootstrap.memory_lock: false
+network.host: 0.0.0.0
+node.master: true
+network.publish_host: _ec2:privateIp_
+transport.publish_host: _ec2:privateIp_
+discovery.seed_providers: ec2
+discovery.type: single-node
+discovery.ec2.tag.ElasticSearch: elasticsearch
+discovery.ec2.endpoint: ec2.${REGION}.amazonaws.com
+s3.client.default.endpoint: s3.${REGION}.amazonaws.com
+cloud.node.auto_attributes: true
+cluster.routing.allocation.awareness.attributes: aws_availability_zone
+xpack.security.enabled: false
+action.auto_create_index: true

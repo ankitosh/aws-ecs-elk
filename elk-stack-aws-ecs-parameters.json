@@ -1,0 +1,54 @@
+[
+    {
+      "ParameterKey": "AWSAccountId",
+      "ParameterValue": "YOUR AWS ACCOUNT ID"
+    },
+    {
+      "ParameterKey": "Route53HostedZoneName",
+      "ParameterValue": "YOUR DOMAIN NAME DO NOT REMOVE THE DOT."
+    },
+    {
+      "ParameterKey": "KeyName",
+      "ParameterValue": "KEY NAME FOR ECS INSTANCES"
+    },
+    {
+      "ParameterKey": "VpcId",
+      "ParameterValue": "VPC ID FOR ECS INSTANCES"
+    },
+    {
+      "ParameterKey": "SubnetId",
+      "ParameterValue": "PRIVATE SUBNET IDS "
+    },
+    {
+      "ParameterKey": "DesiredCapacity",
+      "ParameterValue": "3"
+    },
+    {
+      "ParameterKey": "MaxSize",
+      "ParameterValue": "3"
+    },
+    {
+      "ParameterKey": "InstanceType",
+      "ParameterValue": "m5.4xlarge"
+    },
+    {
+      "ParameterKey": "ESVersion",
+      "ParameterValue": "7.13.4"
+    },
+    {
+      "ParameterKey": "ESInstanceCount",
+      "ParameterValue": "3"
+    },
+    {
+      "ParameterKey": "SSHInstanceSG",
+      "ParameterValue":"sg-004c995f61991c894"
+    },
+    {
+      "ParameterKey": "KibanaVer",
+      "ParameterValue": "6.8.18"
+    },
+    {
+      "ParameterKey": "KibanaInstanceCount",
+      "ParameterValue": "2"
+    }
+  ]

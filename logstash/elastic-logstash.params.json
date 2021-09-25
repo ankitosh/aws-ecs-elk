@@ -1,0 +1,18 @@
+[
+    {
+      "ParameterKey": "AWSAccountId",
+      "ParameterValue": "YOUR ACCOUNT ID"
+    },
+    {
+      "ParameterKey": "BaseStackName",
+      "ParameterValue": "elk-ecs"
+    },
+    {
+      "ParameterKey": "LogstashVersion",
+      "ParameterValue": "6.8.18"
+    },
+    {
+      "ParameterKey": "LogstashInstanceCount",
+      "ParameterValue": "1"
+    }
+  ]
